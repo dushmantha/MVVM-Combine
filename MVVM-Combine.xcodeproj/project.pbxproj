@@ -16,6 +16,16 @@
 		6F5A9DDF28F5487D00A9AB50 /* MVVM_CombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A9DDE28F5487D00A9AB50 /* MVVM_CombineTests.swift */; };
 		6F5A9DE928F5487D00A9AB50 /* MVVM_CombineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A9DE828F5487D00A9AB50 /* MVVM_CombineUITests.swift */; };
 		6F5A9DEB28F5487D00A9AB50 /* MVVM_CombineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A9DEA28F5487D00A9AB50 /* MVVM_CombineUITestsLaunchTests.swift */; };
+		6F5A9E2128F6170700A9AB50 /* CategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A9E1328F6170700A9AB50 /* CategoriesModel.swift */; };
+		6F5A9E2228F6170700A9AB50 /* CategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A9E1328F6170700A9AB50 /* CategoriesModel.swift */; };
+		6F5A9E2328F6170700A9AB50 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A9E1628F6170700A9AB50 /* Router.swift */; };
+		6F5A9E2428F6170700A9AB50 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A9E1628F6170700A9AB50 /* Router.swift */; };
+		6F5A9E2528F6170700A9AB50 /* FetchCategoriesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A9E1728F6170700A9AB50 /* FetchCategoriesService.swift */; };
+		6F5A9E2628F6170700A9AB50 /* FetchCategoriesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A9E1728F6170700A9AB50 /* FetchCategoriesService.swift */; };
+		6F5A9E2728F6170700A9AB50 /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A9E1928F6170700A9AB50 /* CategoriesViewModel.swift */; };
+		6F5A9E2828F6170700A9AB50 /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A9E1928F6170700A9AB50 /* CategoriesViewModel.swift */; };
+		6F5A9E2B28F6170700A9AB50 /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A9E1C28F6170700A9AB50 /* APIConstant.swift */; };
+		6F5A9E2C28F6170700A9AB50 /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A9E1C28F6170700A9AB50 /* APIConstant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,11 @@
 		6F5A9DE428F5487D00A9AB50 /* MVVM-CombineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-CombineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F5A9DE828F5487D00A9AB50 /* MVVM_CombineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_CombineUITests.swift; sourceTree = "<group>"; };
 		6F5A9DEA28F5487D00A9AB50 /* MVVM_CombineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_CombineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6F5A9E1328F6170700A9AB50 /* CategoriesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesModel.swift; sourceTree = "<group>"; };
+		6F5A9E1628F6170700A9AB50 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		6F5A9E1728F6170700A9AB50 /* FetchCategoriesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchCategoriesService.swift; sourceTree = "<group>"; };
+		6F5A9E1928F6170700A9AB50 /* CategoriesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
+		6F5A9E1C28F6170700A9AB50 /* APIConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +115,12 @@
 			isa = PBXGroup;
 			children = (
 				6F5A9DC728F5487A00A9AB50 /* AppDelegate.swift */,
+				6F5A9E1B28F6170700A9AB50 /* constants */,
+				6F5A9E1028F6170700A9AB50 /* model */,
+				6F5A9E1428F6170700A9AB50 /* service */,
+				6F5A9E1828F6170700A9AB50 /* viewModel */,
 				6F5A9DC928F5487A00A9AB50 /* SceneDelegate.swift */,
-				6F5A9DCB28F5487A00A9AB50 /* ViewController.swift */,
+				6F5A9DFD28F6125E00A9AB50 /* screens */,
 				6F5A9DCD28F5487A00A9AB50 /* Main.storyboard */,
 				6F5A9DD028F5487C00A9AB50 /* Assets.xcassets */,
 				6F5A9DD228F5487C00A9AB50 /* LaunchScreen.storyboard */,
@@ -125,6 +144,55 @@
 				6F5A9DEA28F5487D00A9AB50 /* MVVM_CombineUITestsLaunchTests.swift */,
 			);
 			path = "MVVM-CombineUITests";
+			sourceTree = "<group>";
+		};
+		6F5A9DFD28F6125E00A9AB50 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				6F5A9DCB28F5487A00A9AB50 /* ViewController.swift */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		6F5A9E1028F6170700A9AB50 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6F5A9E1328F6170700A9AB50 /* CategoriesModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6F5A9E1428F6170700A9AB50 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				6F5A9E1528F6170700A9AB50 /* restClient */,
+				6F5A9E1728F6170700A9AB50 /* FetchCategoriesService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		6F5A9E1528F6170700A9AB50 /* restClient */ = {
+			isa = PBXGroup;
+			children = (
+				6F5A9E1628F6170700A9AB50 /* Router.swift */,
+			);
+			path = restClient;
+			sourceTree = "<group>";
+		};
+		6F5A9E1828F6170700A9AB50 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6F5A9E1928F6170700A9AB50 /* CategoriesViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		6F5A9E1B28F6170700A9AB50 /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				6F5A9E1C28F6170700A9AB50 /* APIConstant.swift */,
+			);
+			path = constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +326,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F5A9E2528F6170700A9AB50 /* FetchCategoriesService.swift in Sources */,
 				6F5A9DCC28F5487A00A9AB50 /* ViewController.swift in Sources */,
+				6F5A9E2B28F6170700A9AB50 /* APIConstant.swift in Sources */,
+				6F5A9E2328F6170700A9AB50 /* Router.swift in Sources */,
+				6F5A9E2128F6170700A9AB50 /* CategoriesModel.swift in Sources */,
 				6F5A9DC828F5487A00A9AB50 /* AppDelegate.swift in Sources */,
+				6F5A9E2728F6170700A9AB50 /* CategoriesViewModel.swift in Sources */,
 				6F5A9DCA28F5487A00A9AB50 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +341,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F5A9E2628F6170700A9AB50 /* FetchCategoriesService.swift in Sources */,
+				6F5A9E2C28F6170700A9AB50 /* APIConstant.swift in Sources */,
 				6F5A9DDF28F5487D00A9AB50 /* MVVM_CombineTests.swift in Sources */,
+				6F5A9E2428F6170700A9AB50 /* Router.swift in Sources */,
+				6F5A9E2228F6170700A9AB50 /* CategoriesModel.swift in Sources */,
+				6F5A9E2828F6170700A9AB50 /* CategoriesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
